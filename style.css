@@ -9,23 +9,19 @@ body{
     justify-content: space-between;
     /* Cross Axis */
     align-items: flex-start;
-    height: 100vh;
+    align-content: center;
+    height: 200vh;
     width:100%;
+    flex-wrap:wrap;
 }
 
 .box{
     background: blue;
-    width: 100px;
-    height:100px;
+    width: 200px;
+    height:200px;
     display: inline-block;
     color: white;
-}
-
-.box:nth-child(2){
-    align-self: center;
-}
-
-
-.box:nth-child(3){
-    align-self: flex-end;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
